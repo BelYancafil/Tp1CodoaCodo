@@ -1,0 +1,162 @@
+nav{
+    display: flex;
+    justify-content:flex-end;
+    padding: 3px;
+    font-size: 25px;
+    
+}
+.elemento{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 110px;
+    padding-bottom: 25px;
+    color: rgb(48, 46, 46);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    
+}
+header{
+    background-color: rgba(250, 5, 5, 0.30);
+   
+}
+body{
+    background-color:rgba(250, 5, 5, 0.15);
+}
+menu{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+   
+}
+.receta_1 h2{
+    font-size: 35px;
+    color: rgb(24, 37, 62);
+}
+ .receta_1 img{
+    width: 400px;
+    height: 300px;
+    padding: 13px;
+    border-radius: 50px;
+    
+   
+    
+    
+}
+.receta_1:hover{
+    box-shadow: 15px 15px 15px 15px rgba(250, 5, 5, 0.5);
+    font-size: 50px;
+    
+}
+.receta_1 a{
+    font-size: 25px;
+    margin-top: 5px;
+    
+    
+}
+footer{
+    background-color:  rgba(250, 5, 5, 0.30);;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+}
+.receta_1{
+    text-align: center;
+    padding: 3px;
+}
+
+.acerca{
+    display: flex;
+    flex-direction: column;
+}
+.img_about{
+    width: 550px;
+    height: 550px;
+    padding: 3px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(250, 5, 5, 0.5);
+}
+.cuerpo_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p_about{
+    font-size: 30px;
+    padding: 3px 3px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.about{
+    font-size: 45px;
+    text-align: center;
+    color:rgb(24, 37, 62);
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+.contacto h2{
+    font-size: 40px;
+    text-align: center;
+}
+.contacto p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu_receta{
+    display: flex;
+    flex-direction: column;
+}
+.menu_receta h2{
+    font-size: 50px;
+    text-align: center;
+}
+.cuerpo_receta{
+    display: flex;
+    flex-direction: row;
+}
+.cuerpo_receta p{
+    text-align: center;
+    font-size: 23px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+   
+    
+    
+    
+    
+}
+.form {
+    align-self: center;
+    width: 50%;
+    justify-content: space-between;
+    padding: 5px;
+    padding-top: 10px ;
+    
+}
+.form input,textarea{
+    font-size: 30px;
+    padding: 5px;
+}
+.form label{
+    padding: 5px;
+}
+.form button{
+    font-size: 30px;
+    margin-top: 20px;
+    width: 25%;
+    align-self: center;
+    
+
+}
